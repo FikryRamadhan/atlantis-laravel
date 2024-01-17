@@ -1,7 +1,7 @@
 <?php
 
 /**
- *	Develop by Rohim Wahyudin (adiva)
+ *	Develop by Fikry Ramadhan(casper)
  *	Manfaat class ini
  *	-> Mengirim pesan chat whatsapp
  * 	-> Mengirim pesan gambar/media ke whatsapp
@@ -32,6 +32,7 @@ class Whatsapp
 	*/
 	private static function getApiServer()
 	{
+        // api PT.Lintas Jaringan Nusantara Cirebon
 		return 'http://103.242.105.85:50000';
 	}
 
@@ -300,7 +301,7 @@ parameter array
 # string text|message 	=> Isi Pesan
 example :
 Whatsapp::sendChat([
-	'to'	=> "6282316425264",
+	'to'	=> "6283723115994",
 	'text'	=> "Text Pesan"
 ]);
 */
@@ -313,7 +314,7 @@ parameter array
 # string path 		=> Path file
 example : 
 Whatsapp::sendMedia([
-	'to'		=> "6282316425264",
+	'to'		=> "6283723115994",
 	'path'		=> "invoice/INV0001.pdf",
 ]);
 */
